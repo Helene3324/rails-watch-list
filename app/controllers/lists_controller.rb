@@ -3,9 +3,9 @@ class ListsController < ApplicationController
     @lists = List.all
   end
 
-  # def new
-
-  # end
+  def new
+    @lists = List.new
+  end
 
   # def show
   # end
